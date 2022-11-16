@@ -62,11 +62,16 @@ function writeToFile(fileName, data) {
     fs.writeFile(fileName, fileContent, (err) =>
             err ? console.log(err) : console.log('Successfully created file.')
         );
-        
+
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((data) =>{
+        const readmeContent = data
+        writeToFile('README.md', readmeContent);
+    })
+}
 
 // Function call to initialize app
 init();
