@@ -1,18 +1,18 @@
-# README Writer
+# E-commerce Backend
 
   ## Description 
-  This project is a readme generator that allows the user to follow prompts in command line to show what the readme should contain such as the discription and installation directions
+  This is a back end use of squealize to practice of backend e-commerce store in using routes and using expressAPI for routes along with use of squealize use to communicate with mysql database
   ## Installation
-  first copy code locally then open index.js in the terminal of your choice next run npm i to install the requirered packages needed for the program. next you with run "node index.js" upon running that you will proceed through questions that will help generate a README file for your program.
+  
   ## Usage
-  this application is intended to write a README file professionally for you rather then haveing to type and format it yourself. nothing more nothing less.
+  this is just a show of backend work for an ecommerce shop along request to be submitted
   ## Lisence
   MIT
   ## Contributing
   Leader: measterling13 Email: easterlingme95@gmail.com
 
-  Me Myself and I
+  Mitchell Easterling
   ## Test
-  No test were used at this time except for trial and error
+  no test at this time
 
 
